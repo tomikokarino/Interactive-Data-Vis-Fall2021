@@ -7,12 +7,49 @@
   </head>
   <body>
     <h1>Hello World!</h1>
-    <h3>Tutorial Assignment: 1_2_basic_html </h3>
-    <table>
-      <!-- Add your table data here -->
+    <h2>Tutorial Assignment: 1_2_basic_html </h2>
+    
+    <h3>Table with multiple columns</h3>
+    <table class="full-name">
+      <tr class="header">
+        <th colspan="2">Information about Tomiko</th>
+      </tr>
+      <tr>
+        <td>First Name</td>
+        <td>Tomiko</td>
+      </tr>
+      <tr>
+        <td>Last Name</td>
+        <td>Karino</td>
+      </tr>
+      <tr>
+        <td>CUNY Program</td>
+        <td>Data Analysis and Visualization</td>
+      </tr>
+      <tr>
+        <td>Address</td>
+        <td>270 Park Avenue New York, NY 10172</td>
+      </tr>
     </table>
-    <svg>
-      <!-- Add your rectangles in here -->
+    <h3>SVG rectangle with paths</h3>
+    <svg id="rec" version="1.1" width="280" height="100" xmlns="http://www.w3.org/2000/svg">
+     <rect width="100%" height="100%" fill="pink"/>
+     <path d="M 10 10 H 90 V 90 H 10 Z" stroke="#333" fill="turquoise" />
+     <path d="M 100 10 H 180 V 90 H 100 Z" stroke="#333" fill="yellow" />
+     <path d="M 190 10 H 270 V 90 H 190 Z" stroke="#333" fill="lavender" />
+     <text x="50" y="51" text-anchor="middle" fill="#333">turquoise</text>
+     <text x="140" y="52" text-anchor="middle" fill="#333">yellow</text>
+     <text x="230" y="53" text-anchor="middle" fill="#333">lavender</text>
     </svg>
+    
+    <h3>Photo using a img tag</h3>
+    <p>Photo source: <a href="https://www.fodors.com/world/europe/italy/experiences/news/20-gorgeous-seaside-towns-in-italy">fodors.com</a></p>
+<img alt="Photo of Italian coast borrowed from fodors.com" width="30%" src="https://www.fodors.com/wp-content/uploads/2019/03/01_20GorgeousSidetownsinItaly__Positano_shutterstock_702788542.jpg"/>
+  
+<h3>Button</h3>
+  <button type="button">
+    Click on me!
+</button>
+
   </body>
 </html>

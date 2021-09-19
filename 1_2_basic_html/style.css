@@ -6,14 +6,55 @@ body {
 
 h1 {
   font-size: 3em;
-  margin: 0.25em 0;
+  margin: 0 0 0.25em 0;
+  color: #666;
 }
 
-h3 {
+h2 {
   font-size: 2em;
+  margin: 0 0 1em 0;
+  color: #ccc;
+}
+
+h3
+{
+  font-size: 1.2em;
   margin: 0.25em 0;
+  color: #444;
+}
+
+h4
+{
+  font-size: 1em;
+  margin: 0;
+  color: #666;
+  font-weight: bold;
 }
 
 p {
   font-size: 1em;
 }
+
+table.full-name {
+  border: solid 1px #000;
+  border-collapse: collapse;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+table th, table td {
+  margin: 0;
+  padding: 5px;
+}
+
+tr.header {
+  background-color: #ccc;
+}
+
+svg#rec {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
