@@ -7,8 +7,21 @@
   </head>
   <body>
     <h1>Hello World!</h1>
-    <h3>Tutorial Assignment: 1_3_intro_to_js </h3>
+    <h2>Tutorial Assignment: 1_3_intro_to_js </h2>
     <!-- add any HTML you might need here, like a button or a div -->
     <script src="main.js"></script>
+    
+    <button type="button" onclick="countClicks()">Click Here!</button>
+  
+    <p>
+        Button Clicked <span id="display">0</span> Times
+    </p>
+  
+    <input type="text"
+           id="userName"
+           value="Tell me your name">
+  
+    <button type="button" onclick="userName()">Submit</button>
+    <p>Your name is <span id="displayName"></span></p>
   </body>
 </html>
