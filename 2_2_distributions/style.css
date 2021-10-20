@@ -17,3 +17,14 @@ h3 {
 p {
   font-size: 1em;
 }
+
+text.title {
+size: 24pt;
+font-weight: bold;
+margin-bottom: 25px;
+}
+
+text.label {
+color: red;
+font-size: 80%;
+}
